@@ -1,4 +1,6 @@
 @import '../fonts/fonts.css';
+@import '../../03-lection1/01-button/button.css';
+
 
 :root {
     --white: #ffffff;
@@ -17,6 +19,9 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --primary-color: #4263EB;
+    --secondary-color: #7048E8;
 }
 
 * {

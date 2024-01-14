@@ -1,1 +1,59 @@
 /* Стилизация кнопки */
+
+.btn {
+    height: 48px;
+    padding: 0 16px;
+    box-sizing: border-box;
+
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 8px;
+
+    color: var(--white);
+    font: 500 16px/1.2 Roboto, sans-serif;
+    background-color: var(--white);
+}
+
+/* Cтилизация кнопки Primary */
+
+.btn_primary {
+    background-color: var(--primary-color);
+}
+
+.btn_primary:hover:enabled,
+.btn_primary:active {
+    background-color: #2342C0;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* Cтилизация кнопки Secondary */
+
+.btn_secondary {
+    background-color: var(--secondary-color);
+}
+
+.btn_secondary:hover:enabled,
+.btn_secondary:active {
+    background-color: #5028C6;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+
+/* Cтилизация кнопки Alternate */
+
+.btn_alternate {
+    color: var(--black);
+    border: solid 1px var(--grey-3);
+}
+
+.btn_alternate:hover:enabled,
+.btn_alternate:active {
+    border: solid 1px var(--black);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
